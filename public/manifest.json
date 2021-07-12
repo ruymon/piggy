@@ -1,8 +1,8 @@
 {
-  "name": "Piggy App - Seu Porquinho Digital",
+  "name": "Piggy",
   "short_name": "Piggy",
-  "theme_color": "#ffffff",
-  "background_color": "#004740",
+  "theme_color": "#4CA145",
+  "background_color": "#F0F2F5",
   "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/",
