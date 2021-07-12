@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import '../styles/globals.css'
+import Head from 'next/head';
+import '../styles/globals.css';
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -28,10 +28,10 @@ export default function MyApp({ Component, pageProps }) {
           type="image/png"
           sizes="32x32"
         />
-        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
         <meta name="theme-color" content="#317EFB" />
       </Head>
       <Component {...pageProps} />
     </>
-  )
+  );
 }
