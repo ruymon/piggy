@@ -22,12 +22,12 @@
 
 ## :memo: Stack
 
-- [ ] Next.JS - *Used for SEO and SSR*
-- [ ] React.JS - *Front-end Framework*
-- [ ] Typecript
-- [ ] Google Workbox - *PWA*
-- [ ] Jest - *Testing*
-- [ ] Figma - *UI Design*
+- [x] Next.JS - *Used for SEO and SSR*
+- [x] React.JS - *Front-end Framework*
+- [x] Typecript
+- [x] Google Workbox - *PWA*
+- [x] Jest - *Testing*
+- [x] Figma - *UI Design*
 
 
 ## 🚀 Instalando e Rodando
