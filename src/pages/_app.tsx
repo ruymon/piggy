@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5" />
+        <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover' />
         <meta http-equiv="Content-Language" content="pt-br"/>
         <meta name='application-name' content='Piggy' />
         <meta name="description" content="Piggy é a ferramenta de código aberto mais fácil de organizar e gerenciar suas finanças enquanto aprende! Seu porquinho digital." />
@@ -19,13 +19,24 @@ export default function MyApp({ Component, pageProps }) {
         <meta name='mobile-web-app-capable' content='yes' />
         <meta name="theme-color" content="#4CA145" />
 
-
-
+        <meta name='twitter:card' content='summary' />
+        <meta name='twitter:url' content='https://piggy.gq' />
+        <meta name='twitter:title' content='Piggy' />
+        <meta name='twitter:description' content='Seu porquinho digital. A ferramenta de código aberto que facilita a organização de suas finanças enquanto aprende!' />
+        {/* <meta name='twitter:image' content='https://yourdomain.com/static/icons/android-chrome-192x192.png' /> */}
+        <meta name='twitter:creator' content='@ruymon' />
+        <meta property='og:type' content='website' />
+        <meta property='og:title' content='Piggy' />
+        <meta property='og:description' content='Best PWA App in the world' />
+        <meta property='og:site_name' content='Piggy' />
+        <meta property='og:url' content='https://piggy.gq' />
+        {/* <meta property='og:image' content='https://yourdomain.com/static/icons/apple-touch-icon.png' /> */}
 
         <title>Piggy</title>
 
         <link rel="manifest" href="/manifest.json" />
 
+        <link rel='shortcut icon' href='/favicon.ico' />
         <link href="/icons/icon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
         <link href="/icons/icon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
