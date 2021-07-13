@@ -104,7 +104,7 @@ git push origin minha-alteracao
 
 
 ## :memo: Licença
-MIT © [Ruy Monteiro](https://github.com/ruymon). Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+MIT © [Ruy Monteiro](https://github.com/ruymon). Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 Feito com ♥ by [Ruy Monteiro](https://github.com/ruymon) :wave:
