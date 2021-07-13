@@ -19,7 +19,7 @@ if (!self.define) {
     }
     let promise = Promise.resolve();
     if (!registry[name]) {
-
+      
         promise = new Promise(async resolve => {
           if ("document" in self) {
             const script = document.createElement("script");
@@ -31,7 +31,7 @@ if (!self.define) {
             resolve();
           }
         });
-
+      
     }
     return promise.then(() => {
       if (!registry[name]) {
@@ -45,7 +45,7 @@ if (!self.define) {
     Promise.all(names.map(singleRequire))
       .then(modules => resolve(modules.length === 1 ? modules[0] : modules));
   };
-
+  
   const registry = {
     require: Promise.resolve(require)
   };
