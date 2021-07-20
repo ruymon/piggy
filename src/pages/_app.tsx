@@ -25,14 +25,12 @@ export default function MyApp({ Component, pageProps }) {
         <meta name='twitter:url' content='https://piggy.gq' />
         <meta name='twitter:title' content='Piggy' />
         <meta name='twitter:description' content='Seu porquinho digital. A ferramenta de código aberto que facilita a organização de suas finanças enquanto aprende!' />
-        {/* <meta name='twitter:image' content='https://yourdomain.com/static/icons/android-chrome-192x192.png' /> */}
         <meta name='twitter:creator' content='@ruymon' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Piggy' />
         <meta property='og:description' content='Best PWA App in the world' />
         <meta property='og:site_name' content='Piggy' />
         <meta property='og:url' content='https://piggy.gq' />
-        {/* <meta property='og:image' content='https://yourdomain.com/static/icons/apple-touch-icon.png' /> */}
 
         <title>Piggy</title>
 
