@@ -1,5 +1,7 @@
 import Head from 'next/head';
-import '../styles/globals.css';
+
+
+import GlobalStyle from '../styles/global';
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -42,7 +44,10 @@ export default function MyApp({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="/apple-icon.png" />
 
       </Head>
-      <Component {...pageProps} />
+      <>
+        <Component {...pageProps} />
+        <GlobalStyle />
+      </>
     </>
   );
 }
