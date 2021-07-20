@@ -1,7 +1,10 @@
 import Head from 'next/head';
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
 
 
 import GlobalStyle from '../styles/global';
+import theme from '../styles/theme';
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -42,10 +45,10 @@ export default function MyApp({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="/apple-icon.png" />
 
       </Head>
-      <>
+      <ThemeProvider theme={theme}>
         <Component {...pageProps} />
         <GlobalStyle />
-      </>
+      </ThemeProvider>
     </>
   );
 }
