@@ -8,7 +8,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #F0F2F5;
-    color: #363F5F;
+    background: ${props => props.theme.colors.background};
+    color: ${props => props.theme.colors.text};
   }
 `;
