@@ -1329,14 +1329,14 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@^4.29.0":
-  version "4.29.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.29.0.tgz#e5367ca3c63636bb5d8e0748fcbab7a4f4a04289"
-  integrity sha512-+92YRNHFdXgq+GhWQPT2bmjX09X7EH36JfgN2/4wmhtwV/HPxozpCNst8jrWcngLtEVd/4zAwA6BKojAlf+YqA==
+"@typescript-eslint/parser@^4.33.0":
+  version "4.33.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.33.0.tgz#dfe797570d9694e560528d18eecad86c8c744899"
+  integrity sha512-ZohdsbXadjGBSK0/r+d87X0SBmKzOq4/S5nzK6SBgJspFo9/CUDJ7hjayuze+JK7CZQLDMroqytp7pOcFKTxZA==
   dependencies:
-    "@typescript-eslint/scope-manager" "4.29.0"
-    "@typescript-eslint/types" "4.29.0"
-    "@typescript-eslint/typescript-estree" "4.29.0"
+    "@typescript-eslint/scope-manager" "4.33.0"
+    "@typescript-eslint/types" "4.33.0"
+    "@typescript-eslint/typescript-estree" "4.33.0"
     debug "^4.3.1"
 
 "@typescript-eslint/parser@^5.0.0":
@@ -1348,14 +1348,6 @@
     "@typescript-eslint/types" "5.9.1"
     "@typescript-eslint/typescript-estree" "5.9.1"
     debug "^4.3.2"
-
-"@typescript-eslint/scope-manager@4.29.0":
-  version "4.29.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.29.0.tgz#cf5474f87321bedf416ef65839b693bddd838599"
-  integrity sha512-HPq7XAaDMM3DpmuijxLV9Io8/6pQnliiXMQUcAdjpJJSR+fdmbD/zHCd7hMkjJn04UQtCQBtshgxClzg6NIS2w==
-  dependencies:
-    "@typescript-eslint/types" "4.29.0"
-    "@typescript-eslint/visitor-keys" "4.29.0"
 
 "@typescript-eslint/scope-manager@4.33.0":
   version "4.33.0"
@@ -1373,11 +1365,6 @@
     "@typescript-eslint/types" "5.9.1"
     "@typescript-eslint/visitor-keys" "5.9.1"
 
-"@typescript-eslint/types@4.29.0":
-  version "4.29.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.29.0.tgz#c8f1a1e4441ea4aca9b3109241adbc145f7f8a4e"
-  integrity sha512-2YJM6XfWfi8pgU2HRhTp7WgRw78TCRO3dOmSpAvIQ8MOv4B46JD2chnhpNT7Jq8j0APlIbzO1Bach734xxUl4A==
-
 "@typescript-eslint/types@4.33.0":
   version "4.33.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.33.0.tgz#a1e59036a3b53ae8430ceebf2a919dc7f9af6d72"
@@ -1387,19 +1374,6 @@
   version "5.9.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.9.1.tgz#1bef8f238a2fb32ebc6ff6d75020d9f47a1593c6"
   integrity sha512-SsWegWudWpkZCwwYcKoDwuAjoZXnM1y2EbEerTHho19Hmm+bQ56QG4L4jrtCu0bI5STaRTvRTZmjprWlTw/5NQ==
-
-"@typescript-eslint/typescript-estree@4.29.0":
-  version "4.29.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-4.29.0.tgz#af7ab547757b86c91bfdbc54ff86845410856256"
-  integrity sha512-8ZpNHDIOyqzzgZrQW9+xQ4k5hM62Xy2R4RPO3DQxMc5Rq5QkCdSpk/drka+DL9w6sXNzV5nrdlBmf8+x495QXQ==
-  dependencies:
-    "@typescript-eslint/types" "4.29.0"
-    "@typescript-eslint/visitor-keys" "4.29.0"
-    debug "^4.3.1"
-    globby "^11.0.3"
-    is-glob "^4.0.1"
-    semver "^7.3.5"
-    tsutils "^3.21.0"
 
 "@typescript-eslint/typescript-estree@4.33.0":
   version "4.33.0"
@@ -1426,14 +1400,6 @@
     is-glob "^4.0.3"
     semver "^7.3.5"
     tsutils "^3.21.0"
-
-"@typescript-eslint/visitor-keys@4.29.0":
-  version "4.29.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.29.0.tgz#1ff60f240def4d85ea68d4fd2e4e9759b7850c04"
-  integrity sha512-LoaofO1C/jAJYs0uEpYMXfHboGXzOJeV118X4OsZu9f7rG7Pr9B3+4HTU8+err81rADa4xfQmAxnRnPAI2jp+Q==
-  dependencies:
-    "@typescript-eslint/types" "4.29.0"
-    eslint-visitor-keys "^2.0.0"
 
 "@typescript-eslint/visitor-keys@4.33.0":
   version "4.33.0"
@@ -2160,14 +2126,7 @@ debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
-  version "4.3.2"
-  resolved "https://registry.npmjs.org/debug/-/debug-4.3.2.tgz"
-  integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
-  dependencies:
-    ms "2.1.2"
-
-debug@^4.3.2:
+debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2:
   version "4.3.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
   integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
